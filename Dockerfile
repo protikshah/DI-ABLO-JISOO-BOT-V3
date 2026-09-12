@@ -1,4 +1,4 @@
-FROM node:18-bookworm-slim
+FROM node:20-bullseye-slim
 
 RUN apt-get update && apt-get install -y \
     build-essential \
