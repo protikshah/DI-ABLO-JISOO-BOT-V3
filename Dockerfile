@@ -1,6 +1,5 @@
 FROM node:18-bullseye-slim
 
-# Install system dependencies for canvas and gifencoder
 RUN apt-get update && apt-get install -y \
     build-essential \
     libcairo2-dev \
